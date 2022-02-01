@@ -8,3 +8,13 @@
     --cor6: #231b29;
     --cor6: #e5e6e8;
 }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.headerprincipal{
+    height: 609px;
+    width: 1282px;
+    background-color: #ffc211;
+}
