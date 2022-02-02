@@ -26,10 +26,10 @@ body{
     background-color: #f6f7f8;
 }
 
-.pagina02 >p {
+.pagina02 .escritadetopo {
     padding: 50px;
     padding-bottom: 80px;
-    font-size: 30px;
+    font-size: 28px;
 
 }
 /*
@@ -47,11 +47,14 @@ body{
     height: 150px;
     background-color: var(--cor1);
     display: inline-block;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 0px 0px 0px;
 }
 
 #quadrado01{
   
+}
+#quadrado01 >p{
+    padding:auto;
 }
 #quadrado02{
   background-color: var(--cor5);
@@ -81,6 +84,7 @@ body{
     width: 220px;
     display: inline-block;
     background-color: var(--cor4);
+    border-radius: 0px 0px 20px 0px;
 }
 
 #cinza01{
@@ -94,4 +98,11 @@ body{
 }
 #cinza04{
     margin-left: 90px
+}
+
+.escritadefundo{
+    padding-top: 100px;
+    margin-left: 50px;
+    font-size: 15px;
+    color: var(--cor4);
 }
