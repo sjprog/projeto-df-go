@@ -11,12 +11,37 @@
 
 }
 * {
-    margin:auto;
+   margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.headerprincipal{
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagina02{
     height: 800px;
     width: 1280px;
     background-color: #f6f7f8;
+}
+
+.pagina02 >p {
+    padding: 50px;
+    font-size: 30px;
+
+}
+
+.quadradoscoloridos{
+    height: 170px;
+    width: 950px;   
+    background-color: #ffc211; 
+    display: flex;
+    margin: auto;    
+}
+
+#quadrado01{
+  
+    
+
 }
