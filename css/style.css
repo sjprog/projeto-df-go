@@ -11,7 +11,7 @@
 
 }
 * {
-   margin: 0px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -28,20 +28,70 @@ body{
 
 .pagina02 >p {
     padding: 50px;
+    padding-bottom: 80px;
     font-size: 30px;
 
 }
+/*
+.quadrado{
+    margin: auto;  
+    width: 1166px;    
+    border:1px solid black;    
+       
+}
+*/
 
 .quadradoscoloridos{
-    height: 170px;
-    width: 950px;   
-    background-color: #ffc211; 
-    display: flex;
-    margin: auto;    
+    margin-left: 60px;
+    width: 220px;
+    height: 150px;
+    background-color: var(--cor1);
+    display: inline-block;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #quadrado01{
   
-    
+}
+#quadrado02{
+  background-color: var(--cor5);
+  margin-left: 90px
+}
+#quadrado03{
+  margin-left: 90px
+}
+#quadrado04{
+  background-color: var(--cor5);
+  margin-left: 90px
+}
 
+/*
+.quadradoscinzas{
+    width: 1165px;
+    height: 300px;   
+    margin: auto;  
+    border:1px solid black;  
+}
+*/
+
+.quadradocinza{
+    margin-top: -3px;
+    margin-left: 60px;
+    height: 280px;
+    width: 220px;
+    display: inline-block;
+    background-color: var(--cor4);
+}
+
+#cinza01{
+    
+}
+#cinza02{
+    margin-left: 90px
+}
+#cinza03{
+    margin-left: 90px
+}
+#cinza04{
+    margin-left: 90px
 }
