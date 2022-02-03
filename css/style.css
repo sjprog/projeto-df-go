@@ -176,8 +176,15 @@ body{
 
 .escritadefundo{    
     text-shadow: 1px 1px rgb(233, 230, 230);
-    padding-top: 100px;
-    margin-left: 50px;
+    padding-top: 90px;
+    margin-left: 60px;
     font-size: 15px;
     color: var(--cor4);
+}
+.linkicones{    
+    float: right;
+    margin-right: 55px;
+}
+#iconeemail{
+    margin-right: 25px;
 }
