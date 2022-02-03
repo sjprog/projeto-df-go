@@ -30,6 +30,7 @@ body{
 .pagina02 .escritadetopo {
     text-shadow: 0.8px 0.8px rgb(202, 200, 200);
     padding: 50px;
+    padding-left: 60px;
     padding-bottom: 80px;
     font-size: 28px;
 
