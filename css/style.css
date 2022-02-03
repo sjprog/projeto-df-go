@@ -24,6 +24,7 @@ body{
     height: 800px;
     width: 1280px;
     background-color: #f6f7f8;
+   
 }
 
 .pagina02 .escritadetopo {
@@ -32,14 +33,12 @@ body{
     font-size: 28px;
 
 }
-/*
+
 .quadrado{
-    margin: auto;  
-    width: 1166px;    
-    border:1px solid black;    
+     display: inline-flex;  
        
 }
-*/
+
 
 .quadradoscoloridos{
     margin-left: 60px;
@@ -53,32 +52,54 @@ body{
 #quadrado01{
   
 }
-#quadrado01 >p{
-    padding:auto;
+#quadrado01 > p{
+    padding-left:55px;
+    padding-top: 20px;
+    font-size: 100px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color:#f6f7f8;
 }
 #quadrado02{
   background-color: var(--cor5);
-  margin-left: 90px
+  text-shadow: 2px 2px rgb(109, 108, 108);
+  margin-left: 94px
+}
+#quadrado02 > p{
+    padding-left:55px;
+    padding-top: 20px;
+    font-size: 100px;
+    color:#f6f7f8;
 }
 #quadrado03{
-  margin-left: 90px
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  margin-left: 95px
+}
+#quadrado03 > p{
+    padding-left:55px;
+    padding-top: 20px;
+    font-size: 100px;
+    color:#f6f7f8;
 }
 #quadrado04{
+    text-shadow: 2px 2px rgb(109, 108, 108);
   background-color: var(--cor5);
-  margin-left: 90px
+  margin-left: 94px
+}
+#quadrado04 > p{
+    padding-left:55px;
+    padding-top: 20px;
+    font-size: 100px;
+    color:#f6f7f8;
 }
 
-/*
-.quadradoscinzas{
-    width: 1165px;
-    height: 300px;   
-    margin: auto;  
-    border:1px solid black;  
+
+.quadradoscinzas{    
+    display:inline-flex; 
 }
-*/
+
 
 .quadradocinza{
-    margin-top: -3px;
+    margin-top: 2px;
     margin-left: 60px;
     height: 280px;
     width: 220px;
@@ -88,16 +109,60 @@ body{
 }
 
 #cinza01{
+   padding-left: 55px;
+   padding-top: 18px;
     
 }
+#cinza01 > p {
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    margin-top: 10px;
+    margin-left: -35px;
+    margin-right: 20px;
+    text-align: justify;   
+    font-size: 18px;
+    color:#f6f7f8;
+}
 #cinza02{
-    margin-left: 90px
+    margin-left: 94px;
+    padding-left: 55px;
+    padding-top: 18px;
+}
+#cinza02 > p {
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    margin-top: 10px;
+    margin-left: -35px;
+    margin-right: 20px;
+    text-align: justify;   
+    font-size: 18px;
+    color:#f6f7f8;
 }
 #cinza03{
-    margin-left: 90px
+    margin-left: 95px;
+    padding-left: 45px;
+    padding-top: 18px;
+}
+#cinza03 > p {
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    margin-top: 10px;
+    margin-left: -30px;
+    margin-right: 20px;
+    text-align: justify;   
+    font-size: 18px;
+    color:#f6f7f8;
 }
 #cinza04{
-    margin-left: 90px
+    margin-left: 94px;
+    padding-left: 50px;
+    padding-top: 18px;
+}
+#cinza04 > p {
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    margin-top: 10px;
+    margin-left: -30px;
+    margin-right: 20px;
+    text-align: justify;   
+    font-size: 18px;
+    color:#f6f7f8;
 }
 
 .escritadefundo{
