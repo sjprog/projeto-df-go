@@ -205,7 +205,7 @@ body {
     width: 1280px;
     background-color: #232423;
 }
-.pagina03 .escritadetopo {
+.pagina03 .escritadetopo03 {
     color: #f6f7f8;
     text-shadow: 0.8px 0.8px rgb(53, 53, 53);
     padding: 50px;
@@ -214,8 +214,27 @@ body {
     font-size: 28px;
 }
 
-.pagina03 img{
-    margin-left: 300px;
+.pagina03 > img{
+    margin-left: 330px;
     margin-top: -120px;
    
+}
+.escritadefundo03 {
+    text-shadow: 1px 1px rgb(53, 53, 53);
+    padding-top: 00px;
+    margin-left: 60px;
+    font-size: 15px;
+    color: #f6f7f8;
+}
+
+.linkicones03 {
+    float: right;    
+    margin-right: 55px;
+   
+  
+}
+
+#iconeemail03 {
+     margin-right: 25px;
+  
 }
