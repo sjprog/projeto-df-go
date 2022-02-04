@@ -198,8 +198,24 @@ body {
     margin-right: 25px;
 }
 
-.pagina02 {
+ /* -----------------------------------inicio da pagina 03 */
+
+.pagina03 {
     height: 800px;
     width: 1280px;
-    background-color: #f6f7f8;
+    background-color: #232423;
+}
+.pagina03 .escritadetopo {
+    color: #f6f7f8;
+    text-shadow: 0.8px 0.8px rgb(53, 53, 53);
+    padding: 50px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+    font-size: 28px;
+}
+
+.pagina03 img{
+    margin-left: 300px;
+    margin-top: -120px;
+   
 }
